@@ -16,7 +16,7 @@ public class BinarySearchTest {
 
     @Test
     void returnMinus1WhenTargetIsNotInArray() {
-        assertEquals(4, bs.search(new int[]{1, 3, 5, 7, 9}, -1));
+        assertEquals(-1, bs.search(new int[]{1, 3, 5, 7, 9}, 10));
     }
 
     @Test
