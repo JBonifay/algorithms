@@ -1,5 +1,6 @@
-package com.joffrey;
+package com.joffrey.search.binary;
 
+import com.joffrey.search.binary.BinarySearch;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

@@ -1,4 +1,4 @@
-package com.joffrey;
+package com.joffrey.search.binary;
 
 public class BinarySearch {
 
