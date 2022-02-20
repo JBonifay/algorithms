@@ -7,21 +7,21 @@ public class BinarySearch {
         // int high is equals to the size of the array (-1 because we start from zero !)
 
             // While ( *condition )
-            // * Condition to continue the loop:
+            // (* Condition to continue the loop:
             // low < high because of low = mid + 1;
-            // low = high because of high = mid - 1;
+            // low = high because of high = mid - 1;)
 
-                // We get the mid value => (low + high) / 2
+                // We get the mid-value int mid = left + (right - left) / 2;
                 // and the current value => input[mid]
 
                 // if current value == target
-                    // return mid value
+                    // return mid-value
                 // else if current value > target
-                    // set high to mid - 1 (-1 because we don't want to include the actual mid value in next turn !)
+                    // set high to mid - 1 (-1 because we don't want to include the actual mid-value in next turn !)
                 // else (if current value < target
-                    // set low to mid + 1 (+1 because we do not want to include mid value in next turn !)
+                    // set low to mid + 1 (+1 because we do not want to include mid-value in next turn !)
 
-        // return -1 because we did not found target
+        // return -1 because low > high (We did not find the target)
         return -1;
     }
 
